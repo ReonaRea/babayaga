@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-
 const WebsiteTemplate = () => {
   return (
     <div className="min-h-screen flex flex-col">
@@ -43,10 +42,12 @@ const WebsiteTemplate = () => {
           {/* Hero Section */}
           <div className="text-center">
             <Image
-              src="/gamelogo.png"
+              src="/babayaga/gamelogo.png"
               alt="Company Logo"
               className="h-8 w-auto"
               loading="eager"
+              width={300}
+              height={400}
             />
             <p className="text-lg text-gray-600 mb-8">
               This is a simple website template built with React and Tailwind
