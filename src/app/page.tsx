@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "public/gamelogo.png";
+import Image from "next/image";
 
 const WebsiteTemplate = () => {
   return (
@@ -42,8 +42,8 @@ const WebsiteTemplate = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           {/* Hero Section */}
           <div className="text-center">
-            <img
-              src={logo}
+            <Image
+              src="/gamelogo.png"
               alt="Company Logo"
               className="h-8 w-auto"
               loading="eager"
